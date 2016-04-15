@@ -8,7 +8,5 @@ namespace Darwin.Core.Dim
 {
     public abstract class AbstractDimensions<T>
     {
-        public int DimType { get; set; }
-
     }
 }

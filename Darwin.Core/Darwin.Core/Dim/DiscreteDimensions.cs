@@ -13,6 +13,6 @@ namespace Darwin.Core.Dim
             DiscreteCollections = dims;
         }
 
-        public List<T> DiscreteCollections { get; }
+        public List<T> DiscreteCollections { get; private set; }
     }
 }
